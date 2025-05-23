@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Nafiul Aziz | Contact</title>
+    <link rel="icon" type="image/x-icon" href="pro.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <div class="card-container2">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.php">| Home |</a></li>
+                <li><a href="resume.php">| Resume |</a></li>
+                <li><a href="works.php">| Works |</a></li>
+                <li><a class="active" href="contact.php">| Contact |</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="maindiv">
+        <div class="card-container">
+            <div class="contact-card">
+                <div class="card-content">
+                    <div class="experience-container3">
+                        <h1 class="h1">Get In Touch</h1>
+                        <p>Feel free to contact me for any work or suggestions below.</p>
+                        
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <ion-icon name="mail"></ion-icon>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p>nafiulaziz.na@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <ion-icon name="call"></ion-icon>
+                                <div class="contact-details">
+                                    <h3>Phone</h3>
+                                    <p>+880 1841231969</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <ion-icon name="pin"></ion-icon>
+                                <div class="contact-details">
+                                    <h3>Location</h3>
+                                    <p>Shiddeshwari Road, Dhaka, Bangladesh</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <h1 class="h1">Social Media</h1>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/nafiulaziz.ifty.16"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="https://wa.me/01841231969"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                            <a href="mailto:nafiulaziz.na@gmail.com"><ion-icon name="mail"></ion-icon></a>
+                            <a href="https://github.com/nafiulaziz"><ion-icon name="logo-github"></ion-icon></a>
+                            <a href="https://www.linkedin.com/in/nafiul-aziz-a779481b9/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <div class="card-content">
+                    <h1 class="h1">Send Me A Message</h1>
+                    <form class="contact-form" action="process_contact.php" method="post">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-container2">
+        <div class="bottom-bar">
+            <p>Copyright &copy; 2024 Nafiul Aziz. All rights reserved</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>

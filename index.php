@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Nafiul Aziz | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="pro.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <div class="card-container2">
+        <div class="navbar">
+            <ul>
+                <li><a class="active" href="index.php">| Home |</a></li>
+                <li><a href="resume.php">| Resume |</a></li>
+                <li><a href="works.php">| Works |</a></li>
+                <li><a href="contact.php">| Contact |</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="maindiv">
+        <div class="card-container">
+            <div class="card">
+                <img src="pro2.jpeg">
+                <div class="card-content">
+                    <h3>Nafiul Aziz</h3>
+                    <p2 class="btn"> Software Engineer </p2>
+                    <div class="btn">
+                          <a href="assets/Resume_Nafiul_Aziz.pdf" class="submit-btn2" download="Resume_Nafiul_Aziz.pdf"><b>Download My CV</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="card-content">
+                    <div class="experience-container2">    
+                        <h1 class="h1">About Me:</h1>
+                        <p>Enthusiastic Computer Science Engineering student with a passion for software development and problem-solving.
+                            Proficient in programming languages such as Java and C++, with hands-on experience in developing
+                            applications and algorithms. Strong foundation in data structures, algorithms, and system design
+                            principles gained through coursework and projects.
+                        </p>
+                    </div>
+
+                    <div class="experience-container2">    
+                        <h1 class="h1">What I am doing:</h1>
+                        <div class="skills-container">
+                            <div class="skill-box">
+                                <ion-icon name="code"></ion-icon>
+                                <h4>Web Development</h4>
+                                <p>Creating responsive and dynamic websites using modern technologies and frameworks.</p>
+                            </div>
+                            <div class="skill-box">
+                                <ion-icon name="apps"></ion-icon>
+                                <h4>App Development</h4>
+                                <p>Building mobile applications with focus on user experience and functionality.</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-container2">
+        <div class="bottom-bar">
+            <p>Copyright &copy; 2024 Nafiul Aziz. All rights reserved</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
